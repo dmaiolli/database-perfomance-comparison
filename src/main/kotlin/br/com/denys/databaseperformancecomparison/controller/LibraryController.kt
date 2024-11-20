@@ -13,7 +13,7 @@ class LibraryController(
 ) {
 
     @PostMapping
-    fun createLibrary(@RequestParam body: CreateLibraryRequest): Library {
+    fun createLibrary(@RequestBody body: CreateLibraryRequest): Library {
         return libraryService.createLibrary(body)
     }
 
