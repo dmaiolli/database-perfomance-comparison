@@ -2,7 +2,7 @@
 The following was discovered as part of building this project:
 
 * The JVM level was changed from '23' to '21' as the Kotlin version does not support Java 23 yet.
-* The original package name 'br.com.denys.database-perfomance-comparison' is invalid and this project uses 'br.com.denys.database_perfomance_comparison' instead.
+* The original package name 'br.com.denys.database-perfomance-comparison' is invalid and this project uses 'br.com.denys.databaseperformancecomparison' instead.
 
 # Getting Started
 

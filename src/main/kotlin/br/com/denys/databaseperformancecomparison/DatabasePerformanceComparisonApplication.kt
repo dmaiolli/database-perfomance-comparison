@@ -1,11 +1,11 @@
-package br.com.denys.database_perfomance_comparison
+package br.com.denys.databaseperformancecomparison
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DatabasePerfomanceComparisonApplication
+class DatabasePerformanceComparisonApplication
 
 fun main(args: Array<String>) {
-	runApplication<DatabasePerfomanceComparisonApplication>(*args)
+	runApplication<DatabasePerformanceComparisonApplication>(*args)
 }
