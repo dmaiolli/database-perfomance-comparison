@@ -2,13 +2,13 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 19" allPlatforms="JVM [19]" useProjectSettings="false">
+      <configuration version="5" platform="JVM 17" allPlatforms="JVM [17]" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-java-parameters -Xjsr305=strict" />
         </compilerSettings>
         <compilerArguments>
           <stringArguments>
-            <stringArg name="jvmTarget" arg="19" />
+            <stringArg name="jvmTarget" arg="17" />
             <stringArg name="apiVersion" arg="1.7" />
             <stringArg name="languageVersion" arg="1.9" />
           </stringArguments>
@@ -40,7 +40,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -87,7 +87,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:6.1.14" level="project" />
     <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:6.1.14" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-mongodb:3.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:3.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:3.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.3.5" level="project" />
@@ -98,13 +98,6 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.23.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:2.0.16" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-sync:5.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:bson:5.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:5.0.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:bson-record-codec:5.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:4.3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:6.1.14" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:3.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:3.3.5" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2" level="project" />
@@ -117,6 +110,7 @@
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-observation:1.13.6" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-commons:1.13.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:6.1.14" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:6.1.14" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-kotlin:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.17.2" level="project" />
